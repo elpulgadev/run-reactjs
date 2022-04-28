@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>flex-wrap</title>
+    <style>
+      .content,
+      .content1,
+      .content2 {
+        width: 897px;
+        height: 150px;
+        color: #fff;
+        font: 100 24px/100px sans-serif;
+        text-align: center;
+        display: flex;
+      }
+
+      .content div,
+      .content1 div,
+      .content2 div {
+        height: 50%;
+        width: 300px;
+      }
+
+      .red {
+        background-color: orangered;
+      }
+
+      .green {
+        background-color: yellowgreen;
+      }
+
+      .blue {
+        background-color: steelblue;
+      }
+
+      .content {
+        flex-wrap: wrap;
+      }
+
+      .content1 {
+        flex-wrap: nowrap;
+      }
+
+      .content2 {
+        flex-wrap: wrap-reverse;
+      }
+    </style>
+  </head>
+  <body>
+    <h4>This is an example for flex-wrap:wrap</h4>
+    <div class="content">
+      <div class="red">1</div>
+      <div class="green">2</div>
+      <div class="blue">3</div>
+    </div>
+    <h4>This is an example for flex-wrap:nowrap</h4>
+    <div class="content1">
+      <div class="red">1</div>
+      <div class="green">2</div>
+      <div class="blue">3</div>
+    </div>
+    <h4>This is an example for flex-wrap:wrap-reverse</h4>
+    <div class="content2">
+      <div class="red">1</div>
+      <div class="green">2</div>
+      <div class="blue">3</div>
+    </div>
+  </body>
+</html>
+
+<!-- Note -->
+<!-- Nếu container chứa flex item được set width, flex item được set width, cộng
+width của các flex item > width của container ==> width của các item vẫn được
+chia đều theo width của container ==> tức là không bị lồi ra khỏi container -->

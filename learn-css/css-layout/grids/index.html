@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grids</title>
+    <style>
+      .wrapper {
+        display: grid;
+        grid-template-columns: 100px 100px 100px;
+        grid-template-rows: 100px 100px 100px;
+        gap: 10px;
+      }
+
+      .wrapper > div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: brown;
+        color: white;
+      }
+
+      .item1 {
+        grid-column: 1 / 4;
+      }
+
+      .item3 {
+        grid-row: 2 / 4;
+      }
+
+      .item4 {
+        grid-row: 2 / 4;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="item1">One</div>
+      <div class="item2">Two</div>
+      <div class="item3">Three</div>
+      <div class="item4">Four</div>
+      <div class="item5">Five</div>
+      <div class="item6">Six</div>
+    </div>
+  </body>
+</html>
