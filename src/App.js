@@ -37,7 +37,8 @@ import { Card } from "antd";
 // import UseReducer from './components/investigate/UseReducer';
 // import UseEffectPreviewAvatar from './components/investigate/UseEffectPreviewAvatar';
 // import UseEffectTimeFunction from './components/investigate/UseEffectTimeFunction';
-import ReactContext from "./components/investigate/ReactContext";
+// import ReactContext from "./components/investigate/ReactContext";
+import ToDoAppUseReducer from "./components/investigate/ToDoAppUseReducer";
 
 function App() {
   return (
@@ -74,7 +75,8 @@ function App() {
       {/* <UseReducer /> */}
       {/* <UseEffectPreviewAvatar /> */}
       {/* <UseEffectTimeFunction /> */}
-      <ReactContext />
+      {/* <ReactContext /> */}
+      <ToDoAppUseReducer />
 
       {/* <div
         style={{
