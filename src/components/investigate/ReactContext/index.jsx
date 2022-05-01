@@ -3,8 +3,6 @@ import { useContext } from "react";
 
 function ReactContext() {
   const context = useContext(ThemeContext);
-	
-	console.log('context......', context);
 
   return (
     <ThemeProvider>
