@@ -39,7 +39,8 @@ import { Card } from "antd";
 // import UseEffectTimeFunction from './components/investigate/UseEffectTimeFunction';
 // import ReactContext from "./components/investigate/ReactContext";
 // import ToDoAppUseReducer from "./components/investigate/ToDoAppUseReducer";
-import ForwardRef from "./components/investigate/ForwardRef";
+// import ForwardRef from "./components/investigate/ForwardRef";
+import UseImperativeHandle from "./components/investigate/UseImperativeHandle";
 
 function App() {
   return (
@@ -78,7 +79,8 @@ function App() {
       {/* <UseEffectTimeFunction /> */}
       {/* <ReactContext /> */}
       {/* <ToDoAppUseReducer /> */}
-      <ForwardRef />
+      {/* <ForwardRef /> */}
+      <UseImperativeHandle />
 
       {/* <div
         style={{
