@@ -2,16 +2,16 @@ import { useRef } from "react";
 
 import Video from "./Video";
 
-function ForwardRef() {
+function UseImperativeHandle() {
   const videoRef = useRef();
 
-	const handlePlay = () => {
-		videoRef.current.play();
-	};
+  const handlePlay = () => {
+    videoRef.current.play();
+  };
 
-	const handlePause = () => {
-		videoRef.current.pause();
-	};
+  const handlePause = () => {
+    videoRef.current.pause();
+  };
 
   return (
     <>
@@ -24,4 +24,4 @@ function ForwardRef() {
   );
 }
 
-export default ForwardRef;
+export default UseImperativeHandle;
