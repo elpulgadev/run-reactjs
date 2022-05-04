@@ -40,7 +40,8 @@ import { Card } from "antd";
 // import ReactContext from "./components/investigate/ReactContext";
 // import ToDoAppUseReducer from "./components/investigate/ToDoAppUseReducer";
 // import ForwardRef from "./components/investigate/ForwardRef";
-import UseImperativeHandle from "./components/investigate/UseImperativeHandle";
+// import UseImperativeHandle from "./components/investigate/UseImperativeHandle";
+import UseLayoutEffect from "./components/investigate/UseLayoutEffect";
 
 function App() {
   return (
@@ -80,7 +81,8 @@ function App() {
       {/* <ReactContext /> */}
       {/* <ToDoAppUseReducer /> */}
       {/* <ForwardRef /> */}
-      <UseImperativeHandle />
+      {/* <UseImperativeHandle /> */}
+      <UseLayoutEffect />
 
       {/* <div
         style={{

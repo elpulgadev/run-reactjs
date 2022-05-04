@@ -1,16 +1,20 @@
-// labelCol
-// wrapperCol
-// initialValues
-// valuePropName ==> ?
-// getValueProps ==> ?
-// rules
-// setFieldsValue
-// getFieldValue
-// shouldUpdate
-// layout
-// onValuesChange
-// resetFields
-// requiredMark
-// validator
-// validateTrigger
-// errors
+- labelCol
+- wrapperCol
+- initialValues
+- valuePropName ==> ?
+- getValueProps ==> ?
+- rules
+- setFieldsValue
+- getFieldValue
+- shouldUpdate
+- layout
+- onValuesChange
+- resetFields
+- requiredMark
+- validator
+- validateTrigger
+- errors
+
+- Để lấy được value của checkbox antd:
+  - bọc checkbox đó trong Form.Item ==> Form.Item phải có name, valuePropName
+	- Checkbox phải có value
