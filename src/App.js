@@ -41,7 +41,10 @@ import { Card } from "antd";
 // import ToDoAppUseReducer from "./components/investigate/ToDoAppUseReducer";
 // import ForwardRef from "./components/investigate/ForwardRef";
 // import UseImperativeHandle from "./components/investigate/UseImperativeHandle";
-import UseLayoutEffect from "./components/investigate/UseLayoutEffect";
+// import UseLayoutEffect from "./components/investigate/UseLayoutEffect";
+// import UseRef1 from "./components/investigate/useRef/Example01";
+// import UseRef2 from "./components/investigate/useRef/Example02";
+// import UseRef3 from "./components/investigate/useRef/Example03";
 
 function App() {
   return (
@@ -82,46 +85,10 @@ function App() {
       {/* <ToDoAppUseReducer /> */}
       {/* <ForwardRef /> */}
       {/* <UseImperativeHandle /> */}
-      <UseLayoutEffect />
-
-      {/* <div
-        style={{
-          width: "50px",
-          height: "50px",
-          backgroundColor: "red",
-          position: "relative",
-        }}
-      >
-        <div
-          style={{
-            width: "50px",
-            height: "50px",
-            backgroundColor: "blue",
-            position: "absolute",
-            top: "10px",
-            left: "10px",
-          }}
-        >
-          <div
-            style={{
-              width: "50px",
-              height: "50px",
-              backgroundColor: "green",
-              position: "absolute",
-              top: "10px",
-              right: "10px",
-            }}
-          >
-            <div
-              style={{
-                width: "50px",
-                height: "50px",
-                backgroundColor: "black",
-              }}
-            ></div>
-          </div>
-        </div>
-      </div> */}
+      {/* <UseLayoutEffect /> */}
+      {/* <UseRef1 /> */}
+      {/* <UseRef2 /> */}
+      {/* <UseRef3 /> */}
     </Card>
   );
 }

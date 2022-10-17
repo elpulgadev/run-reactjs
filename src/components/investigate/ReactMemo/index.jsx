@@ -12,7 +12,7 @@ function ReactMemo() {
 
   const handleIncrease2 = () => {
     setCount2(count2 + 1);
-  }
+  };
 
   return (
     <div styled={{ padding: "10px 32px" }}>
@@ -25,3 +25,7 @@ function ReactMemo() {
 }
 
 export default ReactMemo;
+
+// Nguyên lý hoạt động của memo: nó nhận vào 1 component, check các props của component sau mỗi lần re-render có bị thay đổi không ==> nếu có ít nhất 1 props thay đổi giá trị ==> cho component re-render ==> và ngược lại
+// Memo sử dụng toán tử === để so sánh
+// Tình huống áp dụng ==> component cha nhiều state ==> component con mà không cần dùng đến state đó ==> dùng Memo ==> để tránh bị re-render khi component cha re-render
