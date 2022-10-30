@@ -26,36 +26,16 @@ function UseEffect() {
 
 export default UseEffect;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // Events: add / remove event listener
 // Observer pattern: subcribe / unsubcribe
 // Closure
-// Timers: setInterval, setTimeoutsetTimeout, clearInterval, clearTimeout
+// Timers: setInterval, setTimeout, clearInterval, clearTimeout
 // useState
 // Mounted, unmounted
 // Call API
 
 // 1. Update DOM
-// 2. Call APIAPI
+// 2. Call API
 // 3. Listen DOM event
 // 	- Scroll
 // 	- Resize
@@ -78,4 +58,7 @@ export default UseEffect;
 // ==> chỉ hoạt động trong môi trường development ==> dù call api để ngoài useEffect
 // ==> bị call 2 lần nhưng lên trên production cũng không bị
 
-// khi call API trong useEffect thì useEffect mục đích là để support call API nên sẽ không bị call API 2 lần
+// khi call API ngoài useEffect thì component re-render lại sẽ call tiếp (ở đây có tình huống call api 2 lần là do strict mode)
+// khi call API trong useEffect thì useEffect mục đích là để support call API (xử lý side effect) nên sẽ không bị call API 2 lần
+
+// *** key đặt cho list element trong map ==> support optimize performance cho việc render list

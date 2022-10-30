@@ -34,6 +34,7 @@ import { Card } from "antd";
 // import UseEffect from './components/investigate/UseEffect';
 // import UseEffectOne from './components/investigate/UseEffectOne';
 // import UseEffectTwo from "./components/investigate/UseEffectTwo";
+import UseEffectThree from "./components/investigate/UseEffectThree";
 // import UseReducer from './components/investigate/UseReducer';
 // import UseEffectPreviewAvatar from './components/investigate/UseEffectPreviewAvatar';
 // import UseEffectTimeFunction from './components/investigate/UseEffectTimeFunction';
@@ -78,6 +79,7 @@ function App() {
       {/* <UseEffect /> */}
       {/* <UseEffectOne /> */}
       {/* <UseEffectTwo /> */}
+      <UseEffectThree />
       {/* <UseReducer /> */}
       {/* <UseEffectPreviewAvatar /> */}
       {/* <UseEffectTimeFunction /> */}
