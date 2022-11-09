@@ -34,7 +34,7 @@ import { Card } from "antd";
 // import UseEffect from './components/investigate/UseEffect';
 // import UseEffectOne from './components/investigate/UseEffectOne';
 // import UseEffectTwo from "./components/investigate/UseEffectTwo";
-import UseEffectThree from "./components/investigate/UseEffectThree";
+// import UseEffectThree from "./components/investigate/UseEffectThree";
 // import UseReducer from './components/investigate/UseReducer';
 // import UseEffectPreviewAvatar from './components/investigate/UseEffectPreviewAvatar';
 // import UseEffectTimeFunction from './components/investigate/UseEffectTimeFunction';
@@ -46,6 +46,11 @@ import UseEffectThree from "./components/investigate/UseEffectThree";
 // import UseRef1 from "./components/investigate/useRef/Example01";
 // import UseRef2 from "./components/investigate/useRef/Example02";
 // import UseRef3 from "./components/investigate/useRef/Example03";
+// import UseRef4 from "./components/investigate-roadmap/useRef/Example01";
+// import OriginIssue from "./components/investigate-roadmap/render-props/01. OriginIssue";
+// import LiftingState from "./components/investigate-roadmap/render-props/02. LiftingState";
+import ComponentCompositionChildrenProps from "./components/investigate-roadmap/render-props/03. ComponentCompositionChildrenProps";
+// import RenderPropComponent from "./components/investigate-roadmap/render-props/04. RenderPropComponent";
 
 function App() {
   return (
@@ -79,7 +84,7 @@ function App() {
       {/* <UseEffect /> */}
       {/* <UseEffectOne /> */}
       {/* <UseEffectTwo /> */}
-      <UseEffectThree />
+      {/* <UseEffectThree /> */}
       {/* <UseReducer /> */}
       {/* <UseEffectPreviewAvatar /> */}
       {/* <UseEffectTimeFunction /> */}
@@ -91,6 +96,12 @@ function App() {
       {/* <UseRef1 /> */}
       {/* <UseRef2 /> */}
       {/* <UseRef3 /> */}
+      {/* <UseRef4 /> */}
+
+      {/* <OriginIssue /> */}
+      {/* <LiftingState /> */}
+      <ComponentCompositionChildrenProps />
+      {/* <RenderPropComponent /> */}
     </Card>
   );
 }
