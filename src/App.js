@@ -47,10 +47,10 @@ import { Card } from "antd";
 // import UseRef2 from "./components/investigate/useRef/Example02";
 // import UseRef3 from "./components/investigate/useRef/Example03";
 // import UseRef4 from "./components/investigate-roadmap/useRef/Example01";
-// import OriginIssue from "./components/investigate-roadmap/render-props/01. OriginIssue";
-// import LiftingState from "./components/investigate-roadmap/render-props/02. LiftingState";
-import ComponentCompositionChildrenProps from "./components/investigate-roadmap/render-props/03. ComponentCompositionChildrenProps";
-// import RenderPropComponent from "./components/investigate-roadmap/render-props/04. RenderPropComponent";
+// import OriginIssue from "./components/investigate-roadmap/RenderProps/01. OriginIssue";
+// import LiftingState from "./components/investigate-roadmap/RenderProps/02. LiftingState";
+// import ComponentCompositionChildrenProps from "./components/investigate-roadmap/RenderProps/03. ComponentCompositionChildrenProps";
+// import RenderPropComponent from "./components/investigate-roadmap/RenderProps/04. RenderPropComponent";
 
 function App() {
   return (
@@ -100,7 +100,7 @@ function App() {
 
       {/* <OriginIssue /> */}
       {/* <LiftingState /> */}
-      <ComponentCompositionChildrenProps />
+      {/* <ComponentCompositionChildrenProps /> */}
       {/* <RenderPropComponent /> */}
     </Card>
   );
