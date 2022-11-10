@@ -35,3 +35,5 @@ class RenderProps extends React.Component {
 }
 
 export default RenderProps;
+
+// Như bạn có thể thấy, bản thân component không giúp chúng tôi giải quyết vấn đề. Đó là điểm mà render props pattern của React phát huy tác dụng, giúp tăng cường cấu tạo thành phần của React với một component quan trọng: render function.

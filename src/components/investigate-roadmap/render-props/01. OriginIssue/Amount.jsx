@@ -38,3 +38,5 @@ class Amount extends Component {
 }
 
 export default Amount;
+
+// Tuy nhiên, nhược điểm là Amount component phải biết về các Currency component ngay bây giờ. Mỗi khi bạn muốn thay đổi kết quả hiển thị, bạn sẽ phải chạm vào Amount component. Vì vậy, điều gì sẽ xảy ra nếu bạn có thể để nguyên Amount component như trước đây và lấy các currency component bên ngoài nó?

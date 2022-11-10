@@ -49,3 +49,5 @@ class RenderProps extends Component() {
 }
 
 export default RenderProps;
+
+// Tất state được quản lý bởi RenderProps component và các Currency component và Amount component chỉ nhận được props. Việc triển khai để quản lý state được giữ nguyên, nó chỉ được nâng lên RenderProps.
