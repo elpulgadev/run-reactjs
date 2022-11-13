@@ -51,6 +51,9 @@ import { Card } from "antd";
 // import LiftingState from "./components/investigate-roadmap/RenderProps/02. LiftingState";
 // import ComponentCompositionChildrenProps from "./components/investigate-roadmap/RenderProps/03. ComponentCompositionChildrenProps";
 // import RenderPropComponent from "./components/investigate-roadmap/RenderProps/04. RenderPropComponent";
+// import HigherOrderComponent01 from "./components/investigate-roadmap/HigherOrderComponent/01";
+import Portals from "./components/investigate-roadmap/Portals";
+// import HigherOrderFunc from "./components/investigate-roadmap/HigherOrderFunc/01";
 
 function App() {
   return (
@@ -102,6 +105,10 @@ function App() {
       {/* <LiftingState /> */}
       {/* <ComponentCompositionChildrenProps /> */}
       {/* <RenderPropComponent /> */}
+
+      {/* <HigherOrderComponent01 /> */}
+      <Portals />
+      {/* <HigherOrderFunc /> */}
     </Card>
   );
 }

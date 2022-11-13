@@ -5,8 +5,18 @@ const TODOS = [
   { id: "2", task: "Do that", completed: false },
 ];
 
-const App = () => {
-  return <TodoList data={TODOS} />;
+const fetchData = () => {
+  return { data: TODOS, isLoading: true };
+};
+
+const HigherOrderComponent = () => {
+  const { data, isLoading } = fetchData();
+
+  if (isLoading) return <div>Loading data.</div>;
+  if (!data) return <div>No data loaded yet.</div>;
+  if (!data.lengt) return <div>Data is empty.</div>;
+
+  return <TodoList data={data} />;
 };
 
 const TodoList = ({ data }) => {
@@ -27,4 +37,4 @@ const TodoItem = ({ item }) => {
   );
 };
 
-export default App;
+export default HigherOrderComponent;
