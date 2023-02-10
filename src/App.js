@@ -52,8 +52,14 @@ import { Card } from "antd";
 // import ComponentCompositionChildrenProps from "./components/investigate-roadmap/RenderProps/03. ComponentCompositionChildrenProps";
 // import RenderPropComponent from "./components/investigate-roadmap/RenderProps/04. RenderPropComponent";
 // import HigherOrderComponent01 from "./components/investigate-roadmap/HigherOrderComponent/01";
-import Portals from "./components/investigate-roadmap/Portals";
+// import Portals from "./components/investigate-roadmap/Portals";
 // import HigherOrderFunc from "./components/investigate-roadmap/HigherOrderFunc/01";
+// import ChooseTheStateStructure from "./components/investigate-roadmap/ChooseTheStateStructure/index";
+// import ChooseTheStateStructure1 from "./components/investigate-roadmap/ChooseTheStateStructure/index1";
+// import ChooseTheStateStructure2 from "./components/investigate-roadmap/ChooseTheStateStructure/index2";
+// import LiftingUpByState from "./components/investigate-roadmap/LiftingUpByState/index";
+// import LiftingUpByState2 from "./components/investigate-roadmap/LiftingUpByState/index2";
+import Counter from "./components/investigate-xstate/Counter/index";
 
 function App() {
   return (
@@ -107,8 +113,17 @@ function App() {
       {/* <RenderPropComponent /> */}
 
       {/* <HigherOrderComponent01 /> */}
-      <Portals />
+      {/* <Portals /> */}
       {/* <HigherOrderFunc /> */}
+
+      {/* <ChooseTheStateStructure /> */}
+      {/* <ChooseTheStateStructure1 /> */}
+      {/* <ChooseTheStateStructure2 /> */}
+
+      {/* <LiftingUpByState /> */}
+      {/* <LiftingUpByState2 /> */}
+
+      <Counter />
     </Card>
   );
 }

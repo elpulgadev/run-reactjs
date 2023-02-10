@@ -1,0 +1,17 @@
+- ## Bảo toàn và đặt lại trạng thái
+- Trạng thái bị cô lập giữa các thành phần. React theo dõi trạng thái nào thuộc về thành phần nào dựa trên vị trí của chúng trong cây giao diện người dùng. Bạn có thể kiểm soát thời điểm duy trì trạng thái và thời điểm đặt lại trạng thái giữa các lần kết xuất lại.
+- Bạn sẽ học
+  - Cách React “thấy” cấu trúc thành phần
+  - Khi React chọn giữ nguyên hoặc đặt lại trạng thái
+  - Cách buộc React đặt lại trạng thái của thành phần
+  - Các khóa và loại ảnh hưởng như thế nào đến việc trạng thái có được bảo toàn hay không
+- Cây giao diện người dùng
+  - Trình duyệt sử dụng nhiều cấu trúc cây để mô hình hóa giao diện người dùng. DOM đại diện cho các phần tử HTML, CSSOM cũng làm như vậy đối với CSS. Thậm chí còn có một cây Trợ năng!
+  - React cũng sử dụng cấu trúc cây để quản lý và mô hình hóa giao diện người dùng mà bạn tạo. React tạo cây giao diện người dùng từ JSX của bạn. Sau đó, React DOM cập nhật các phần tử DOM của trình duyệt để khớp với cây giao diện người dùng đó. (React Native dịch những cây này thành các phần tử dành riêng cho nền tảng di động.)
+- Trạng thái được gắn với một vị trí trong cây
+- Cùng một thành phần ở cùng một vị trí bảo toàn trạng thái
+- Các thành phần khác nhau ở cùng một trạng thái thiết lập lại vị trí
+- Đặt lại trạng thái ở cùng một vị trí
+  - Tùy chọn 1: Kết xuất một thành phần ở các vị trí khác nhau
+  - Tùy chọn 2: Đặt lại trạng thái bằng phím
+- Đặt lại biểu mẫu bằng một phím
